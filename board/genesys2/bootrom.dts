@@ -26,7 +26,7 @@
             compatible = "riscv,axi-sd-card-1.0";
             clock = <100000000>;
             reg = <0x60000000 0x10000>;
-            bus-width = <4>;
+            bus-width = <1>;
             fifo-depth = <256>;
             interrupt-parent = <&{/soc/interrupt-controller@c000000}>;
             interrupts = <2>;
